@@ -17,7 +17,7 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.yourcompany.yourapp</string> <!-- Your app's bundle identifier -->
+                <string>com.z33ncompany.SpotiLife</string> <!-- Your app's bundle identifier -->
                 <key>bundle-version</key>
                 <string>6.9.0</string> <!-- Your app's version -->
                 <key>kind</key>
