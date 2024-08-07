@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://github.com/lucz33n/SpotiLite/SpotilifeC.v1.2.3_v8.6.42.ipa</string> <!-- URL to your IPA file -->
+                    <string>SpotilifeC.v1.2.3_v8.6.42.ipa</string> <!-- URL to your IPA file -->
                 </dict>
             </array>
             <key>metadata</key>
@@ -19,7 +19,7 @@
                 <key>bundle-identifier</key>
                 <string>com.yourcompany.yourapp</string> <!-- Your app's bundle identifier -->
                 <key>bundle-version</key>
-                <string>1.0.0</string> <!-- Your app's version -->
+                <string>6.9.0</string> <!-- Your app's version -->
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
