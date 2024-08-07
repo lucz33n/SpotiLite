@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://github.com/lucz33n/SpotiLite/SpotilifeC.v1.2.3_v8.6.42.ipa</string> <!-- URL to your IPA file -->
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.yourcompany.yourapp</string> <!-- Your app's bundle identifier -->
+                <key>bundle-version</key>
+                <string>1.0.0</string> <!-- Your app's version -->
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>SpotiLife</string> <!-- Your app's name -->
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
