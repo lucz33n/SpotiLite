@@ -59,8 +59,9 @@
 
     <script>
         function downloadApp() {
+            // Check if the user is on a mobile device
             if (/Mobi|Android/i.test(navigator.userAgent)) {
-                window.location.href = 'SpotilifeC.v1.2.3_v8.6.42.ipa'; 
+                window.location.href = 'itms-services://?action=download-manifest&url=info.plist'; 
             } else {
                 alert('Please visit this page on a mobile device to download the app.');
             }
