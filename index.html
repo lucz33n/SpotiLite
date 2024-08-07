@@ -61,7 +61,7 @@
         function downloadApp() {
             // Check if the user is on a mobile device
             if (/Mobi|Android/i.test(navigator.userAgent)) {
-                window.location.href = 'itms-services://?action=download-manifest&url=info.plist'; 
+                window.location.href = 'itms-services://?action=download-manifest&url=manifest.plist'; 
             } else {
                 alert('Please visit this page on a mobile device to download the app.');
             }
