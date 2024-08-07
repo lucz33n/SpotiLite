@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotiLite</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212; /* Spotify black */
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #1DB954; /* Spotify green */
+        }
+        .download-button {
+            background-color: #1DB954; /* Spotify green */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #14833b; /* Darker green for hover effect */
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download SpotiLite</h1>
+        <button class="download-button" onclick="downloadApp()">Download</button>
+    </div>
+
+    <script>
+        function downloadApp() {
+            if (/Mobi|Android/i.test(navigator.userAgent)) {
+                window.location.href = 'C:\Users\Lucas Rodriguez\VSCODE projects\SpotiLite\SpotilifeC.v1.2.3_v8.6.42.ipa'; 
+            } else {
+                alert('Please visit this page on a mobile device to download the app.');
+            }
+        }
+    </script>
+</body>
+</html>
